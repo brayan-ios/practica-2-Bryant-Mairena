@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // introduccion de 2 numeros 
+        // mostrar el numero mayor de los dos
+        // si los dos numeros son iguales mostrar un mensaje de que son iguales
+
+        let dato1, dato2, num1, num2, resultado;
+        dato1 = prompt("Introduce un numero");
+        dato2 = prompt("Introduce otro numero");
+        num1 = parseInt(dato1);
+        num2 = parseInt(dato2);
+        if (num1 > num2) {
+            resultado = num1;
+        } else if (num1 < num2) {
+            resultado = num2;
+        } else {
+            resultado = "Son iguales";
+        }
+        //mostrar resultado en el documento
+        if (resultado == "Son iguales") {
+            document.write("Los numeros son iguales");
+        } else {
+            document.write("El numero mayor es: " + resultado);
+        }
+        
+        
+        
+        
+    </script>
+</body>
+</html>
