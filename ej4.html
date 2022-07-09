@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id=" salida">
+        <script>
+            // generar un numero aleatorio 
+            // y mostrarlo en el navegador
+            // validar si el numero es mayor de 3, mostrar un mensaje
+            // y mostrarlo en el elemento con id salida
+            // eres el ganador, de lo contrario perdiste
+            let numero = Math.floor(Math.random() * 10) + 1;
+            if (numero > 3) {
+                document.write("<h1>Ganaste</h1>");
+            } else {
+                document.write("<h1>Perdiste</h1>");
+            }
+            document.write("<h1>El numero es: " + numero + "</h1>");
+            
+        </script>
+    </p>
+</body>
+</html>
