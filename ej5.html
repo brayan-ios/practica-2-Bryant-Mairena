@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // programa que lee tres notas de un alumno
+    // calcula la media e indica si esta aprobado o no
+    // nota media mayor o igual que 5
+
+    let nota1 = parseInt(prompt("Introduce la nota 1"));
+    let nota2 = parseInt(prompt("Introduce la nota 2"));
+    let nota3 = parseInt(prompt("Introduce la nota 3"));
+    let media = (nota1 + nota2 + nota3) / 3;
+    if (media >= 5) {
+        document.write("<h1>Aprobado</h1>");
+    } else {
+        document.write("<h1>No aprobado</h1>");
+    }
+</script>
+    
+</body>
+</html>
